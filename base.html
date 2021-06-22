@@ -24,22 +24,15 @@
         <section class="banner">
             <div class="container-fluid">
                
-                    <div class="row bg-secondary justify-content-between">
-                      <div class="col-lg-3  bg-warning">
-                          <div class="d-flex p-2 mb-auto">
+                    <div class="row bg-secondary justify-content-center d-flex p-2 d-inline">
+                      <div class="col-lg-3  bg-warning text-center">
                         <img src="/images/logo1.png" width="100px">
                         <img src="/images/logo2.png " width="40px">
-                        <img src="/images/logo3.png" width="40px">
-                    </div>
+                        <img src="/images/logo3.png" width="40px">                    
                       </div>
 
 
-                      <div class="col-lg-3 bg-success">
-                        <form class="d-flex p-2">
-                            <input class="form-control  mb-2 mb-lg-0 " type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-success me-auto mb-2 mb-lg-0" type="submit"><i class="bi bi-search"></i></button>
-                          </form>
-                      </div>
+                    
                     </div>
                  
             </div>
@@ -47,29 +40,206 @@
   
         <!--MENU NAVBAR-->
         <section class="menu">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <div class="row bg-danger">
-                    <div class="col-12">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Active</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </li>
-              </ul>
+              <a class="navbar-brand" href="#"><img src="/images/logosite.png" width="130px" height="120px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Produtos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Frutas</a></li>
+                      <li><a class="dropdown-item" href="#">Verduras</a></li>
+                      <li><a class="dropdown-item" href="#">Frutos do mar</a></li>
+                      <li><a class="dropdown-item" href="#">Outros</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Promoções</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Cadastro</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                </form>
+              </div>
             </div>
-            </div>
-            </div>
+          </nav>
         </section>
     </header>
-     </div>
+
+    <!--Tela Sobre-->
+<div class="main container">
+  <div class="row bg-secondary justify-content-start d-flex d-inline">
+    <div class="col-lg-6  bg-warning">
+      <h1>Sobre</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus nobis molestias iste deserunt cupiditate porro eos fugiat culpa exercitationem sapiente laudantium cumque praesentium, maxime blanditiis voluptate, labore commodi. Nesciunt, non.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sapiente perferendis mollitia quaerat explicabo deserunt repellendus, unde suscipit consequuntur, eveniet delectus odit inventore ad cumque libero sint nesciunt nisi commodi.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius magnam nemo recusandae quisquam voluptatum explicabo atque hic, sed dolor, eum excepturi eligendi repellat quam perspiciatis totam doloremque consequatur quo sequi!
+      </p>
+    </div>
+    <div class="col-lg-6  bg-warning text-center p-2">
+      <img src="/images/cesta.jpg" class="img-fluid rounded-circle p-2" width="350px" alt="">
+    </div>
+  </div>
+  
+</div>
+
+<!--Produtos-->
+
+<div class="container">
+  <div class="row">
+<div class="col-lg bg-success ">
+ <h1>Produtos</h1>
+
+ <div class="row g-1 justify-content-around">
+
+  <div class="card mb-3 text-center" style="max-width: 350px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="..." alt="...">
+      </div>
+      <div class="col-md-8 ">
+        <div class="card-body">
+          <h5 class="card-title">Frutas</h5>
+          <p class="card-text">This is a wider card with.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card mb-3 text-center" style="max-width: 350px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="..." alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Verduras</h5>
+          <p class="card-text">This is a wider card with.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3 text-center" style="max-width: 350px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="..." alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Frutos do mar</h5>
+          <p class="card-text">This is a wider card with.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="card mb-3 text-center " style="max-width: 350px;">
+    <div class="row g-0">
+      <div class="col-md-4 pt-2">
+        <img src="/images/farinha.png" width="70px" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Outros</h5>
+          <p class="card-text">This is a wider card with.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3 text-center" style="max-width: 350px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="..." alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Promoções</h5>
+          <p class="card-text">This is a wider card with.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+</div>
+
+  
+</div>
+  </div>
+</div>
+
+
+
+    <!--Footer-->
+    
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+    
+          <!-- Github -->
+          <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+            ><i class="fab fa-github"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
