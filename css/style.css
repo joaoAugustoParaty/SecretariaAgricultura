@@ -17,3 +17,18 @@ body {
     border-radius: 0;
     box-shadow: 5px 5px 15px #e74c3c;
 }
+
+#carouselGaleria{
+    max-height: 500px;
+    overflow: hidden;
+   
+   
+}
+
+#carouseitens img{
+    height: 100%;
+  width: 100%;  
+  position:relative;
+  top: .5;
+  
+}
