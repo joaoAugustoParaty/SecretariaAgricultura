@@ -41,7 +41,7 @@
         <!--MENU NAVBAR-->
         <section class="menu">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
+            <div class="container" id="menu">
               <a class="navbar-brand" href="#">Secretaria de Agricultura e Pesca</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -84,12 +84,9 @@
     </header>
 
     <!--Tela Sobre-->
-<div class="main container">
-  <div class="row bg-secondary justify-content-start d-flex d-inline">
-    <div class="col-lg-6  bg-warning text-center p-2">
-      <img src="/images/logosite2.png" class="img-fluid  p-2" width="350px" alt="">
-    </div>
-    <div class="col-lg-6  bg-warning">
+<div class="main container" id="sobre">
+  <div class="row  justify-content-start d-flex d-inline">
+    <div class="col-lg-6 ">
       
       <h1 class="text-center pt-4">Sobre</h1>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus nobis molestias iste deserunt cupiditate porro eos fugiat culpa exercitationem sapiente laudantium cumque praesentium, maxime blanditiis voluptate, labore commodi. Nesciunt, non.
@@ -97,13 +94,17 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius magnam nemo recusandae quisquam voluptatum explicabo atque hic, sed dolor, eum excepturi eligendi repellat quam perspiciatis totam doloremque consequatur quo sequi!
       </p>
     </div>
+    <div class="col-lg-6   text-center p-2">
+      <img src="/images/cesta1.png" class="img-fluid  p-2" width="350px" alt="">
+    </div>
+   
   </div>
   
 </div>
 
 
 <!--Galeria-->
-<div class="container">
+<div class="container" id="noticia">
   <div class="row" >
     <div class="col-lg bg-success">
       <h1 class="text-center pt-4">Noticias</h1>
@@ -154,7 +155,7 @@
 
 <!--Produtos-->
 
-<div class="container">
+<div class="container" id="produto">
   <div class="row">
 <div class="col-lg bg-success">
  <h1 class="text-center pt-4">Produtos</h1>
@@ -217,7 +218,7 @@
 
 
 
-<div class="container">
+<div class="container" id="cadastro">
   <div class="row">
     <div class="col-lg bg-success">
       <h1 class="text-center pt-4">Pré-cadastro</h1>
@@ -232,7 +233,7 @@
                     <fieldset class="row gx-3">
                         <legend>Dados Pessoais</legend>
                         <div class="form-floating mb-3">
-                            <input class="form-control" type="text" id="txtNome" placeholder=" " autofocus />
+                            <input class="form-control" type="text" id="txtNome" placeholder=" " />
                             <label for="txtNome">Nome</label>
                         </div>
                         <div class="form-floating mb-3 col-md-6 col-xl-4">
@@ -276,7 +277,7 @@
                     <fieldset class="row gx-3">
                         <legend>Endereço</legend>
                         <div class="form-floating mb-3">
-                          <input class="form-control" type="text" id="txtNome" placeholder=" " autofocus />
+                          <input class="form-control" type="text" id="txtNome" placeholder=" " />
                           <label for="txtNome">Rua</label>
                       </div>
                         
@@ -330,8 +331,6 @@
 
   </div>
 </div>
-
-
 
 </div>
 

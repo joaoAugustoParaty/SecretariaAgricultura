@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
     min-width: 372px;
-    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+   
+    
+    
+    
+    
 }
 
 .wrapper {
     min-height: 100vh;
+    background-image: url(/images/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #team img{
@@ -24,5 +37,63 @@ body {
     max-width: 800px;
 }
 
+#menu a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+/*-----Sobre-----*/
+#sobre{
+    background: rgba( 255, 121, 40, 0.65 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 8.5px );
+-webkit-backdrop-filter: blur( 8.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#sobre h1{
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+/*-----Noticia-----*/
+#noticia h1{
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    
+}
+
+/*-----Produto-----*/
+#produto h1{
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    
+}
+
+/*-----Produto-----*/
+#cadastro h1{
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    
+}
+#cadastro h3{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    
+}
+#cadastro p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+}
+#cadastro legend{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
 
 
