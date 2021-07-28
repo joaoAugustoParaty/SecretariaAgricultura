@@ -185,7 +185,23 @@ Preloader
 /*--------------
 TOP BANNER
 ---------------*/
-
+.banner{
+    margin-top: 10px;
+}
+.search-box{
+    position: absolute;
+    padding: 5px;
+}
+.btn.btn-search{
+    border-radius: 0;
+    background: #03a3b2;
+    color: #fff;
+}
+.search-input:focus{
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 /*--------------
 Navbar
 ---------------*/
@@ -204,15 +220,28 @@ Toogle Theme - light and dark mode
 Responsive
 ---------------------------------*/
 @media(max-width: 991px){
-    
+    .banner img{
+        max-width: 100px;
+    }
     }
     
 
 @media(max-width: 767px){
-    
+    .banner img{
+        max-width: 50px;
+    }
    
 }
 
 @media(max-width: 575px){
+    .banner img{
+        max-width: 100px;
+    }
+}
+
+@media(max-width: 299px){
+    .banner img{
+        max-width: 50px;
+    }
    
 }
