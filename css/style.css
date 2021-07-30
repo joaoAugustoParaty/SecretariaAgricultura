@@ -185,26 +185,227 @@ Preloader
 /*--------------
 TOP BANNER
 ---------------*/
-.banner{
+/*.banner{
     margin-top: 10px;
 }
-.search-box{
-    position: absolute;
-    padding: 5px;
-}
-.btn.btn-search{
-    border-radius: 0;
-    background: #03a3b2;
-    color: #fff;
-}
+.searchbar{
+    margin-bottom: auto;
+    margin-top: 10px;
+    height: 45px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 10px;
+    }
 
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 20px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 400px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+
+    .search_icon{
+    height: 25px;
+    width: 25px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }*/
+    
 /*--------------
 Navbar
 ---------------*/
+.navbar img{
+    max-width: 100px;   
+    padding: 5px;
+}
+.navbar .img-3,
+.navbar .img-2{
+    max-width: 50px;
+}
+.navbar{
+    background-color: transparent;
+    padding: 20px;
+    transition: all 0.5s ease;
+}
+
+.navbar.navbar-shrink{  /*importante-*/
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    background-color: var(--main-color);
+    padding: 10px 0;
+}
+.navbar > .container{
+    padding: 0 15px;
+}
+
+.navbar .navbar-brand{
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 500px;
+    text-transform: capitalize;
+}
+.navbar .nav-item{
+margin-left: 40px;
+}
+.navbar .nav-item .nav-link{
+     color: #ffffff;
+     text-transform: capitalize;
+     font-size: 16px;
+     font-weight: 400;
+     padding: 5px 0;
+     position: relative;
+}
+
+.navbar .nav-item .nav-link::before{
+content: '';
+position: absolute;
+left:0;
+bottom:0;
+right: 0;
+height: 1px;
+background-color: #ffffff;
+transition: all 0.5s ease;
+transform: scale(0);
+}
+.navbar .nav-item .nav-link.active::before,
+.navbar .nav-item .nav-link:hover::before{
+    transform: scale(1);
+}
+
+
 
 
 /*----------------
 Home Section----*/
+.home{
+    min-height: 100vh;
+    padding: 150px 0;
+    background-color: var(--main-to-dark-color);
+    border-radius: 0 0 200px 0;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+}
+
+.home-text h1{
+    font-size: 45px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 20px;
+    }
+    .home-text p{
+        font-size: 18px;
+        line-height: 28px;
+        color: #ffffff;
+        margin: 0;
+        font-weight: 300;
+    }
+    
+    .home .home-btn {
+        margin-top: 40px;
+        
+    }
+
+    .home .btn-1{
+        margin: 10px;
+        background-color: #ffffff;
+        padding: 12px 30px;
+        border:none;
+        border-radius: 30px;
+        color: var(--main-color);
+        font-size: 16px;
+        text-transform: capitalize;
+        transition: all 0.5s ease;
+        box-shadow: var(--shadow-black-300);
+        font-weight: 500;
+    }
+
+    .home .btn-1:focus{
+        box-shadow: var(--shadow-black-300);
+    }
+
+    .home .btn-1:hover{
+        color: #ffffff;
+        background-color: var(--main-color);
+    }
+
+/*==========================================
+  counter Design
+==========================================*/
+.counter-section{
+    padding:2.0rem 0;
+  }
+  .counter-section h2{
+      color: crimson;
+  }
+  
+  .counter-section p{
+    color:var(--main-color);
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .counter-section span{
+    color:var(--main-color);
+  }
+/*==========================================
+  Sobre
+==========================================*/
+.about-section .img-box img{
+    border-radius: 50%;
+    max-width: 200px; 
+    max-height: 200px;
+    box-shadow: var(--shadow-black-100);
+}
+.about-section .sobre-item h3,
+.about-section .apoie-item h3{
+    text-align: center;
+}
+.about-section .apoie-item .main-btn,
+.about-section .sobre-item .main-btn{
+    margin: 10px;
+    background-color: #ffffff;
+    padding: 12px 30px;
+    border:none;
+    border-radius: 30px;
+    color: var(--main-color);
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    box-shadow: var(--shadow-black-300);
+    font-weight: 500;
+}
+
+.about-section .sobre-item .main-btn:hover{
+    color: #ffffff;
+        background-color: var(--main-color);
+}
+.about-body .apoie-item,
+.about-body .sobre-item{
+    box-shadow: var(--shadow-black-100);
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-top: 5px;
+}
 
 /*--------------------------------
 Toogle Theme - light and dark mode
@@ -215,29 +416,22 @@ Toogle Theme - light and dark mode
 /*--------------------------------
 Responsive
 ---------------------------------*/
+@media(max-width: 1240px){
+    .navbar img{
+        max-width: 90px;
+    } 
+}
+
+
 @media(max-width: 991px){
-    .banner img{
-        max-width: 100px;
-    }
-    }
-    
+}
 
 @media(max-width: 767px){
-    .banner img{
-        max-width: 50px;
-    }
-   
 }
 
 @media(max-width: 575px){
-    .banner img{
-        max-width: 100px;
+    .navbar img{
+        max-width: 60px;
     }
 }
 
-@media(max-width: 299px){
-    .banner img{
-        max-width: 50px;
-    }
-   
-}
