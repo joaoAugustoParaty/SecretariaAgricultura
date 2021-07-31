@@ -152,7 +152,6 @@ ul{
     font-size: 40px;
     color: var(--black-900);
     font-weight: 700;
-    text-transform: capitalize;
     text-align: center;
     margin: 0;
 }
@@ -406,7 +405,21 @@ Home Section----*/
     padding: 20px 30px;
     margin-top: 5px;
 }
-
+.about-section .card-body{  
+    border: none;
+}
+.about-section .card{
+    box-shadow: var(--shadow-black-300); 
+    margin: 20px 10px;
+    border: none;
+}
+.about-section .card p{
+    font-weight: 400;
+}
+.about-section .card a{
+    text-decoration: none;
+    cursor: pointer;
+}
 /*--------------------------------
 Toogle Theme - light and dark mode
 ---------------------------------*/
