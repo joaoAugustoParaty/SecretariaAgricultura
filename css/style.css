@@ -369,6 +369,9 @@ Home Section----*/
 /*==========================================
   Sobre
 ==========================================*/
+.about-section{
+    background-color: var(--black-100);
+}
 .about-section .img-box img{
     border-radius: 50%;
     max-width: 200px; 
@@ -420,6 +423,66 @@ Home Section----*/
     text-decoration: none;
     cursor: pointer;
 }
+
+/*--------------------------------
+Noticia
+---------------------------------*/
+
+.noticia-item{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: var(--shadow-black-100);
+}
+
+.noticia-item h3{
+    font-size: 18px;
+    color: var(--black-900);
+    font-weight: 500;
+    margin: 15px 0 5px;
+    text-transform: capitalize;
+}
+
+.noticia-item span{
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--black-400);
+    text-transform: capitalize;
+}
+.noticia-item .data{
+    margin-top: -20px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--black-400);
+    text-transform: capitalize;
+}
+/*--------------------------------
+PRODUTOS
+---------------------------------*/
+.produto-body .card{
+    box-shadow: var(--shadow-black-100);
+    border: none;
+
+}
+.card-body a{
+   font-weight: 600; 
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   
+}
+
+.card-body .btn{
+    display: flex;
+}
+.card-body lord-icon{
+    max-width: 150px;
+    align-items: center;
+}
+
+
 /*--------------------------------
 Toogle Theme - light and dark mode
 ---------------------------------*/
@@ -434,7 +497,11 @@ Responsive
         max-width: 90px;
     } 
 }
-
+@media(max-width: 1200px){
+    lord-icon{
+        max-width: 200px;
+    }
+}
 
 @media(max-width: 991px){
 }
@@ -442,9 +509,5 @@ Responsive
 @media(max-width: 767px){
 }
 
-@media(max-width: 575px){
-    .navbar img{
-        max-width: 60px;
-    }
-}
+
 
