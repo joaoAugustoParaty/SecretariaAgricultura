@@ -313,10 +313,218 @@
               </div>
             </div>
           </div>
-          <p>Atenção, esse é o pré-cadastro. O cadastro deve ser feito na secretária de agricultura e pesca no endereço: <span> Rua da Floresta, n°46, Paraty-RJ.</span> No momento do cadastro o agricultor ou pescador deve apresentar o comprovante de residência, identidade e CPF incluindo a xerox desses documentos. <span>Só será aceito o cadastro de agricultores e pescadores moradores de Paraty!</span></p>     
+          <p>Atenção, esse é o pré-cadastro. O cadastro deve ser feito na secretária de agricultura e pesca no endereço: <span> Rua da Floresta, n°46, Paraty-RJ.</span> No momento do cadastro o agricultor ou pescador deve apresentar o comprovante de residência, identidade e CPF incluindo a xerox desses documentos. <span>Só será aceito o cadastro de agricultores e pescadores moradores de Paraty!</span></p> 
+          <form class="needs-validation">
+            <div class="form-row">
+              <div class="col-md-10 mb-3">
+                <label for="nome"class="form-label">Digite o seu nome completo:</label>
+              <div class="input-group">
+              <input id="firstName" type="text" class="form-control" placeholder="Nome Completo" required>
+              <div class="valid-feedback">
+                Validado
+              </div>
+              <div class="invalid-feedback">
+                Por favor, digite o seu nome.
+              </div>
+              </div>
+              </div>
+              <div class="col-md-2 mb-3">
+                <label for="idade"class="form-label">Idade:</label>
+                <input id="firstName" type="number" class="form-control" placeholder="Idade" required>
+                <div class="invalid-feedback">
+                  Preencha o campo solicitado
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-2 mb-3">
+                <label for="nascimento"class="form-label">Data de nascimento:</label>
+                <input id="firstName" type="date" class="form-control" placeholder="Nome Completo" required>
+                <div class="invalid-feedback">
+                  Preencha o campo solicitado
+                </div>
+              </div>
+              <div class="col-md-2 mb-3">
+                <label for="validationTooltip04">Sexo</label>
+                <select class="custom-select" id="validationTooltip04" required>
+                  <option selected disabled value="">escolha...</option>
+                  <option value="1">M</option>
+                  <option value="2">F</option>
+                  <option value="3">LGBTQIA+</option>
+                </select>
+                <div class="invalid-tooltip">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationTooltip04">Possui algum auxílio da Prefeitura?</label>
+                <select class="custom-select" id="validationTooltip04" required>
+                  <option selected disabled value="">escolha...</option>
+                  <option value="1">Não</option>
+                  <option value="2">Auxílio defeso do camarão</option>
+                  <option value="3">Auxílio defeso do sardinha</option>
+                </select>
+                <div class="invalid-tooltip">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationTooltip04">Possui algum auxílio do Governo?</label>
+                <select class="custom-select" id="validationTooltip04" required>
+                  <option selected disabled value="">escolha...</option>
+                  <option value="1">Não</option>
+                  <option value="2">Auxílio defeso do camarão</option>
+                  <option value="3">Auxílio defeso do sardinha</option>
+                </select>
+                <div class="invalid-tooltip">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="nome"class="form-label">Digite o numero do CPF:</label>
+              <div class="input-group">
+              <input id="firstName" type="text" class="form-control" placeholder="Digite sem os pontos e traço" required>
+              <div class="valid-feedback">
+                Validado
+              </div>
+              <div class="invalid-feedback">
+                Por favor, digite o seu CPF.
+              </div>
+              </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationTooltip04">Profissão</label>
+                <select class="custom-select" id="validationTooltip04" required>
+                  <option selected disabled value="">escolha...</option>
+                  <option value="1">Agricultor</option>
+                  <option value="2">Pescador</option>
+                </select>
+                <div class="invalid-tooltip">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="nome"class="form-label">Digite o registro da embarcação</label>
+              <div class="input-group">
+              <input id="firstName" type="number" class="form-control" placeholder="Se não for pescador digite zero" required>
+              <div class="valid-feedback">
+                Validado
+              </div>
+              <div class="invalid-feedback">
+                Por favor, digite o registro da embarcação.
+              </div>
+              </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="validationTooltip04">Bairro</label>
+                <select class="custom-select" id="validationTooltip04" required>
+                  <option selected disabled value="">escolha...</option>
+                  <option value="1">Areal do Taquari</option>
+                <option value="2">Bairro de Fátima</option>
+                <option value="3">Barra Grande</option>
+                <option value="4">Boa Vista</option>
+                <option value="5">Caboclo</option>
+                <option value="6">Caborê</option>
+                <option value="7">Cabral</option>
+                <option value="8">Calhaus</option>
+                <option value="9">Campinho da Independência</option>
+                <option value="10">Canto Azul</option>
+                <option value="11">Centro</option>
+                <option value="12">Chácara</option>
+                <option value="13">Chácara da Saudade</option>
+                <option value="14">Chapéu do Sol</option>
+                <option value="15">Colônia</option>
+                <option value="16">Condado</option>
+                <option value="17">Coriscão</option>
+                <option value="18">Corisco</option>
+                <option value="19">Corisquinho</option>
+                <option value="20">Corumbê</option>
+                <option value="21">Córrego dos Micos</option>
+                <option value="22">Dom Pedro</option>
+                <option value="23">Fazenda Preta do Saco Grande</option>
+                <option value="24">Graúna</option>
+                <option value="25">Ilha das Cobras</option>
+                <option value="26">Independência</option>
+                <option value="27">Itanema</option>
+                <option value="28">Jabaquara</option>
+                <option value="29">Laranjeiras</option>
+                <option value="30">Mamanguá</option>
+                <option value="31">Martin de Sá</option>
+                <option value="32">Novo Horizonte</option>
+                <option value="33">Pantanal</option>
+                <option value="34">Paraty-Mirim</option>
+                <option value="35">Parque de Mangueira</option>
+                <option value="36">Parque Imperial</option>
+                <option value="37">Parque Ipê</option>
+                <option value="38">Parque Verde</option>
+                <option value="39">Patitiba</option>
+                <option value="40">Patrimônio</option>
+                <option value="41">Pedras Azuis</option>
+                <option value="42">Penha</option>
+                <option value="43">Pontal</option>
+                <option value="44">Portal das Artes</option>
+                <option value="45">Ponte Branca</option>
+                <option value="46">Portão de Ferro I</option>
+                <option value="47">Portão de Ferro II</option>
+                <option value="48">Portão de Ferro III</option>
+                <option value="49">Portão Vermelho</option>
+                <option value="50">Pouso da Cajaíba</option>
+                <option value="51">Praia do Sono</option>
+                <option value="52">Praia Grande</option>
+                <option value="53">Prainha de Mambucaba</option>
+                <option value="54">Princesa Isabel</option>
+                <option value="55">Ribeirinho</option>
+                <option value="56">Saco Grande</option>
+                <option value="57">São Gonçalo</option>
+                <option value="58">São Roque</option>
+                <option value="59">Serraria</option>
+                <option value="60">Sertão da Indaiatiba</option>
+                <option value="61">Areal do Taquari</option>
+                <option value="62">Sertão do Taquari</option>
+                <option value="63">Várzea do Corumbê</option>
+                <option value="64">Vila Colonial</option>
+                <option value="65">Vila Operária</option>
+                <option value="66">Vila Oratório</option>
+                <option value="67">Vila Residencial de Mambucaba</option>
+                <option value="68">Trindade</option>
+                <option value="69">Tarituba</option>
+                <option value="70">Taquari</option>
+                </select>
+                <div class="invalid-tooltip">
+                  Please select a valid state.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="nome"class="form-label">Nome da Rua:</label>
+              <div class="input-group">
+              <input id="firstName" type="text" class="form-control" placeholder="Se não for pescador digite zero" required>
+              <div class="valid-feedback">
+                Validado
+              </div>
+              <div class="invalid-feedback">
+                Por favor, digite o nome da rua.
+              </div>
+              </div>
+              </div>
+              <div class="col-md-2 mb-3">
+                <label for="validationTooltip04">Logradouro</label>
+                <select class="custom-select" id="validationTooltip04" required>
+                  <option selected disabled value="">escolha...</option>
+                  <option value="1">Avenida</option>
+                <option value="2">Costeira</option>
+                <option value="3">Ilha</option>
+                <option value="4">Rua</option>
+                <option value="5">Sítio</option>
+                </select>
+                <div class="invalid-tooltip">
+                  Por favor insira o logradouro valido.
+                </div>
+              </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit form</button>
+          </form>
         </div>
       </section>
-
 
 
     <!--FOOTER START-->
