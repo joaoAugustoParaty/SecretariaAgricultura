@@ -455,13 +455,14 @@ Noticia
     box-shadow: var(--shadow-black-100);
 }
 
+
 .noticia .section-title span{
     color: var(--main-color);
 }
 
 .noticia-item a{
-    color: var(--color-3);
-    font-weight: bold;
+    color: var(--main-color);
+    cursor: pointer;
     
     
 }
@@ -469,6 +470,7 @@ Noticia
 .noticia-item a:hover{
     color: var(--main-color);
     text-decoration: none;
+    
 }
 
 .noticia-item h3{
@@ -494,14 +496,22 @@ Noticia
     color: var(--black-400);
     
 }
+.noticia img{
+    max-height: 180px;
+}
+
 /*--------------------------------
 PRODUTOS
 ---------------------------------*/
+.produto .section-title span{
+ color: var(--main-color);
+}
 .produto-body .card{
     box-shadow: var(--shadow-black-100);
     border: none;
 
 }
+
 .card-body a{
    font-weight: 600; 
    align-items: center;
@@ -516,6 +526,13 @@ PRODUTOS
 .card-body lord-icon{
     max-width: 150px;
     align-items: center;
+}
+
+/*--------------------------------
+CONTATOS
+---------------------------------*/
+.contato .section-title span{
+    color: var(--main-color)
 }
 
 
@@ -537,13 +554,27 @@ Responsive
     lord-icon{
         max-width: 200px;
     }
+    .noticia-item .data{
+        display: block;
+        margin-top: 2px;
+        padding: 5px;
+        text-align: center;
+         
+     }
+     .noticia-item h3{
+        text-align: center;
+     }
 }
 
 @media(max-width: 991px){
 }
 
 @media(max-width: 767px){
+    
 }
 
+@media(max-width: 542px){
+    
+}
 
 
