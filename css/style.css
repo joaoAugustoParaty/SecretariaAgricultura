@@ -8,10 +8,10 @@ Fonts
 Global Css
 ---------------*/
 :root{
-    --main-color: #7857fe;
-    --color-1: #e91e63;
-    --color-2: #f5ae10;
-    --color-3: #09d69c;
+    --main-color: #00ADB5;
+    --color-1: #EEEEEE;
+    --color-2: #393E46;
+    --color-3: #222831;
     --bg-dark: #2b2c2f;
     --main-to-dark-color: var(--main-color);
     --dark-to-main-color: var(--bg-dark);
@@ -355,7 +355,7 @@ Home Section----*/
     padding:2.0rem 0;
   }
   .counter-section h2{
-      color: crimson;
+     color: var(--color-2);
   }
   
   .counter-section p{
@@ -397,6 +397,10 @@ Home Section----*/
     font-weight: 500;
 }
 
+.section-title span{
+    color: var(--color-1);
+}
+
 .about-section .sobre-item .main-btn:hover{
     color: #ffffff;
         background-color: var(--main-color);
@@ -410,6 +414,22 @@ Home Section----*/
 }
 .about-section .card-body{  
     border: none;
+}
+
+.about-section .card-body a{  
+    color: var(--color-3);
+
+}
+
+.about-section .card-body a:hover{  
+    color: var(--main-color);
+
+}
+
+.about-section .card-header{
+    border: none;
+    background-color: var(--color-2);
+    color: var(--color-1);
 }
 .about-section .card{
     box-shadow: var(--shadow-black-300); 
@@ -435,12 +455,28 @@ Noticia
     box-shadow: var(--shadow-black-100);
 }
 
+.noticia .section-title span{
+    color: var(--main-color);
+}
+
+.noticia-item a{
+    color: var(--color-3);
+    font-weight: bold;
+    
+    
+}
+
+.noticia-item a:hover{
+    color: var(--main-color);
+    text-decoration: none;
+}
+
 .noticia-item h3{
     font-size: 18px;
     color: var(--black-900);
     font-weight: 500;
     margin: 15px 0 5px;
-    text-transform: capitalize;
+    
 }
 
 .noticia-item span{
@@ -448,7 +484,7 @@ Noticia
     font-size: 16px;
     font-weight: 300;
     color: var(--black-400);
-    text-transform: capitalize;
+    
 }
 .noticia-item .data{
     margin-top: -20px;
@@ -456,7 +492,7 @@ Noticia
     font-size: 16px;
     font-weight: 300;
     color: var(--black-400);
-    text-transform: capitalize;
+    
 }
 /*--------------------------------
 PRODUTOS
