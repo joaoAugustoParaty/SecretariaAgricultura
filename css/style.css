@@ -523,10 +523,24 @@ PRODUTOS
 .card-body .btn{
     display: flex;
 }
+
+.card-body .btn:hover{
+    color: var(--color-1);
+    background-color: var(--main-color);
+    
+}
 .card-body lord-icon{
     max-width: 150px;
     align-items: center;
 }
+/*--------------------------------
+CONTATOS
+---------------------------------*/
+.custom-select:focus,
+.form-control:focus {
+    border-color: var(--main-color) !important;
+    box-shadow: 0 0 5px rgb(86, 231, 236) !important;
+  }
 
 /*--------------------------------
 CONTATOS
