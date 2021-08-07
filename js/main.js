@@ -13,7 +13,7 @@ $(document).ready(function(){
             $(".navbar").removeClass("navbar-shrink")
         }
     })
-})
+
 // counter design
 document.addEventListener("DOMContentLoaded", () => {
     function counter(id, start, end, duration){
@@ -57,4 +57,4 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 })
-
+})
