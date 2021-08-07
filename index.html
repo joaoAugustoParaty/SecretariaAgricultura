@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
     <title>Hello, world!</title>
   </head>
@@ -28,21 +28,6 @@
           <span></span>
         </div>
     <!--PRELOADER END-->
-
-    <!--TOP BANNER START
-     <section class="banner align-items-center">
-       <div class="container">
-        <div class="row justify-content-center align-items-center">
-          <div class="col-sm-6 col-lg-6 d-flex justify-content-center">
-            <div class="searchbar">
-              <input class="search_input" type="text" name="" placeholder="Search...">
-              <a href="#" class="search_icon"><i class="bi bi-search"></i></a>
-            </div>
-          </div>
-        </div>
-       </div>
-     </section>-->
-    <!--TOP BANNER END-->
 
     <!--NAVBAR START-->
     <nav class="navbar navbar-expand-lg fixed-top">
@@ -61,31 +46,22 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link active" data-scroll-nav="0" href="#">Inicio</a>
+              <a class="nav-link active" data-scroll-nav="0" href="#inicio">Inicio</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" data-scroll-nav="1" href="#">Sobre</a>
+                <a class="nav-link" data-scroll-nav="1" href="#sobre">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-scroll-nav="2" href="#">Noticias</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" data-scroll-nav="4" href="#">Produtos</a>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Frutas</a>
-                  <a class="dropdown-item" href="#">Frutos do Mar</a>
-                  <a class="dropdown-item" href="#">Verduras</a>
-                  <a class="dropdown-item" href="#">Outros</a>
-                </div>
+                <a class="nav-link" data-scroll-nav="2" href="#noticia">Noticias</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-scroll-nav="6" href="#">Cadastro</a>
+                <a class="nav-link" data-scroll-nav="3" href="#noticia">Produtos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-scroll-nav="6" href="#contact">Contato</a>
+                <a class="nav-link" data-scroll-nav="4" href="#cadastro">Cadastro</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" data-scroll-nav="6" href="#">Login</a>
+                <a class="nav-link" data-scroll-nav="5" href="#contato">Contato</a>
               </li>
           </ul>
         </div>
@@ -95,7 +71,7 @@
     <!--NAVBAR END-->
 
     <!--HOME SECTION START-->
-    <section class="home d-flex align-items-center" id="home" data-scroll-index="#">
+    <section class="home d-flex align-items-center" id="inicio" data-scroll-index="0">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-7">
@@ -156,7 +132,7 @@
 </section>
 
 <!--SOBRE SECTION START-->
-<section class="about-section section-padding" id="about" data-scroll-index="#">
+<section class="about-section section-padding" id="sobre" data-scroll-index="1">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8">
@@ -188,7 +164,7 @@
 </section>
 
 <!--NOTICIA-->
-<section class="noticia section-padding">
+<section class="noticia section-padding" id="noticia" data-scroll-index="2">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8">
@@ -230,7 +206,7 @@
 </section>
 
 <!--PRODUTOS-->
-<section class="produto section-padding">
+<section class="produto section-padding" id="produto" data-scroll-index="3">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8">
@@ -304,7 +280,7 @@
 </section>
 
       <!--CADASTRO-->
-      <section class="cadastro section-padding">
+      <section class="cadastro section-padding" id="cadastro" data-scroll-index="4">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -527,7 +503,7 @@
       </section>
 
              <!--CONTATO-->
-      <section class="contato section-padding">
+      <section class="contato section-padding" id="contato" data-scroll-index="5">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -733,13 +709,17 @@
     
 
 
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-     <!-- owl casousel js -->
-     <script src="js/owl.carousel.min.js"></script>
-     <!-- Scroll js -->
-     <script src="js/scrollIt.min.js"></script>
+     <!-- jquery js -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <!-- popper js -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <!-- owl casousel js -->
+      <script src="js/owl.carousel.min.js"></script>
+      <!-- Scroll js -->
+      <script src="js/scrollIt.min.js"></script>
+     <!-- bootstrap js-->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <!-- main js -->
      <script src="js/main.js"></script>
     
   </body>
