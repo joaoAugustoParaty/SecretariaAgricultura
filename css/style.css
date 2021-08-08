@@ -273,29 +273,6 @@ Home Section----*/
         
     }
 
-    .home .btn-1{
-        margin: 10px;
-        background-color: #ffffff;
-        padding: 12px 30px;
-        border:none;
-        border-radius: 30px;
-        color: var(--main-color);
-        font-size: 16px;
-        text-transform: capitalize;
-        transition: all 0.5s ease;
-        box-shadow: var(--shadow-black-300);
-        font-weight: 500;
-    }
-
-    .home .btn-1:focus{
-        box-shadow: var(--shadow-black-300);
-    }
-
-    .home .btn-1:hover{
-        color: #ffffff;
-        background-color: var(--main-color);
-    }
-
 /*==========================================
   counter Design
 ==========================================*/
@@ -303,11 +280,11 @@ Home Section----*/
     padding:2.0rem 0;
   }
   .counter-section h2{
-     color: var(--main-color);
+     color: var(--color-3);
   }
   
   .counter-section p{
-    color:var(--main-color);
+    color:var(--color-3);
     text-transform: uppercase;
     font-weight: 700;
   }
@@ -523,15 +500,44 @@ Footer
 }
 
 /*----------------------------
-Modal
+MODAL SOBRE
 -----------------------------*/
-
-
+.sobre-modal .modal-header{
+    border: none;
+}
+.sobre-modal .modal-title{
+ color: var(--main-color);
+}
 .sobre-modal .modal-body li{
     background-color: var(--main-color);
+    box-shadow: var(--shadow-black-300);
+    color: var(--color-1);
+    border: none;
+}
+.sobre-modal .modal-body h5{
+    text-align: center;
+    color: var(--main-color);
 }
 
+.sobre-modal .modal-footer button{
+    text-align: center;
+}
 
+/*----------------------------
+MODAL NOTICIA
+-----------------------------*/
+
+.noticia-modal .modal-header{
+    background-color: var(--main-color);
+    color: var(--color-1);
+}
+.noticia-modal .modal-body img{
+    padding: 5px;
+}
+
+.noticia-modal .modal-body span{
+    font-weight: bold;
+}
 /*--------------------------------
 Toogle Theme - light and dark mode
 ---------------------------------*/
