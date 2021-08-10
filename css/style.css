@@ -68,6 +68,7 @@ ul{
     transition: all 0.5s ease;
     box-shadow: var(--shadow-black-300);
     font-weight: 500;
+    
 }
 
 .btn-1:focus{
@@ -367,6 +368,7 @@ Home Section----*/
 .about-section .card a{
     text-decoration: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 /*--------------------------------
@@ -431,33 +433,46 @@ PRODUTOS
 .produto .section-title span{
  color: var(--main-color);
 }
-.produto-body .card{
+
+.testimonial-item{
+    margin:15px;
+    padding:30px;
     box-shadow: var(--shadow-black-100);
-    border: none;
-
+    border-radius: 10px;
+    text-align: center;
 }
 
-.card-body a{
-   font-weight: 600; 
-   align-items: center;
-   text-align: center;
-   justify-content: center;
-   
+.testimonial-item .img-box{
+height: 80px;
+width: 80px;
+display: inline-block;
+margin-bottom: 15px;
+border: 4px solid var(--main-color);
+border-radius: 50%;
+position: relative;
+}
+.testimonial-item .img-box img{
+    border-radius: 50%;
+    width: 100%;
+}
+.testimonial-item h4{
+    font-size: 20px;
+    color: var(--main-color);
+    font-weight: 500;
+    margin: 0 0 5px;
+    text-transform: capitalize;
 }
 
-.card-body .btn{
-    display: flex;
-}
-
-.card-body .btn:hover{
-    color: var(--color-1);
-    background-color: var(--main-color);
+.testimonial-item a{
+    display: inline-block;
+    font-size: 15px;
+    color: var(--black-400);
+    font-weight: 600;
+    margin-top: 10px;
     
 }
-.card-body lord-icon{
-    max-width: 150px;
-    align-items: center;
-}
+
+
 /*--------------------------------
 CONTATOS
 ---------------------------------*/
