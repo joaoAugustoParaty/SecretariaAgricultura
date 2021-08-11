@@ -435,7 +435,7 @@ PRODUTOS
  color: var(--main-color);
 }
 
-.testimonial-item{
+.produto-item{
     margin:15px;
     padding:30px;
     box-shadow: var(--shadow-black-100);
@@ -444,7 +444,7 @@ PRODUTOS
     background-color: var(--color-3);
 }
 
-.testimonial-item .img-box{
+.produto-item .img-box{
 height: 80px;
 width: 80px;
 display: inline-block;
@@ -453,11 +453,11 @@ border: 4px solid var(--main-color);
 border-radius: 50%;
 position: relative;
 }
-.testimonial-item .img-box img{
+.produto-item .img-box img{
     border-radius: 50%;
     width: 100%;
 }
-.testimonial-item h4{
+.produto-item h4{
     font-size: 20px;
     color: var(--main-color);
     font-weight: 500;
@@ -466,7 +466,7 @@ position: relative;
 
 }
 
-.testimonial-item a{
+.produto-item a{
     display: inline-block;
     font-size: 15px;
     font-weight: 600;

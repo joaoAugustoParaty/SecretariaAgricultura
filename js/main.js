@@ -37,7 +37,7 @@ $(document).ready(function(){
     }
 })
 
-/*--------------TEAM CAROUSEL--------------*/
+/*--------------Produto CAROUSEL--------------*/
 $('.produto-carousel').owlCarousel({
     loop:true,
     margin:0,
