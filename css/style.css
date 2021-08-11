@@ -91,6 +91,7 @@ ul{
     transition: all 0.5s ease;
     box-shadow: var(--shadow-black-100);
     font-weight: 500;
+    
 }
 
 .btn-2:focus{
@@ -440,6 +441,7 @@ PRODUTOS
     box-shadow: var(--shadow-black-100);
     border-radius: 10px;
     text-align: center;
+    background-color: var(--color-3);
 }
 
 .testimonial-item .img-box{
@@ -461,17 +463,23 @@ position: relative;
     font-weight: 500;
     margin: 0 0 5px;
     text-transform: capitalize;
+
 }
 
 .testimonial-item a{
     display: inline-block;
     font-size: 15px;
-    color: var(--black-400);
     font-weight: 600;
     margin-top: 10px;
     
 }
 
+.produto .produto-body h3{
+    text-align: start;
+    margin-left: 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
 
 /*--------------------------------
 CONTATOS
