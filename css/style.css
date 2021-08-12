@@ -475,10 +475,12 @@ position: relative;
 }
 
 .produto .produto-body h3{
-    text-align: start;
-    margin-left: 15px;
     font-size: 25px;
     font-weight: 700;
+}
+
+.produto-body-mar{
+    margin-top: 50px;
 }
 
 /*--------------------------------
