@@ -66,6 +66,7 @@ $('.produto-carousel').owlCarousel({
 /*-------------------Navbar Collapse-----------------------*/
 $(".nav-link").on("click", function(){
     $(".navbar-collapse").collapse("hide")
+
 })
 })
 
@@ -90,3 +91,34 @@ document.addEventListener("DOMContentLoaded", () => {
     counter("count3", 0, 200, 200);
    
  });
+
+ // Products
+const categories = document.querySelectorAll('.categories li');
+
+function activeCategory(){
+    categories.forEach(n => n.classList.remove('active'))
+    this.classList.add('active')
+}
+
+categories.forEach(n => n.addEventListener('click', activeCategory))
+
+//Filter
+const itemBox = document.querySelectorAll('.products__item .item__box')
+let value = 'frutas';
+filter(value);
+
+function filter(value){
+    itemBox.forEach(show =>{
+        show.style.display = 'none';
+        if(show.getAttribute('data-id') ===value || value == 'all'){
+            show.style.display = 'flex';
+        }
+    })
+}
+
+categories.forEach(item =>{
+    item.addEventListener('click', ()=>{
+    let value = item.textContent;
+    filter(value);
+    })
+})
