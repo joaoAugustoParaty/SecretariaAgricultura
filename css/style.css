@@ -182,18 +182,12 @@ border-radius: 5px;
 /*--------------
 Navbar
 ---------------*/
-.navbar img{
-    max-width: 100px;   
-    padding: 5px;
-}
-.navbar .img-3,
-.navbar .img-2{
-    max-width: 50px;
-}
+
 .navbar{
     background-color: transparent;
     padding: 20px;
     transition: all 0.5s ease;
+    
 }
 
 .navbar.navbar-shrink{  /*importante-*/
@@ -206,10 +200,15 @@ Navbar
 }
 
 .navbar .navbar-brand{
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;
-    font-weight: 600px;
+    font-weight: 900;
     text-transform: capitalize;
+     position: relative;
+     margin: auto;
+}
+.navbar .navbar-brand span{
+    color: var(--black-400);
 }
 .navbar .nav-item{
 margin-left: 40px;
@@ -221,6 +220,7 @@ margin-left: 40px;
      font-weight: 600;
      padding: 5px 0;
      position: relative;
+    
 }
 
 
@@ -241,7 +241,24 @@ transform: scale(0);
     transform: scale(1);
 }
 
+/* Bootstrap 4 text input with search icon */
 
+.has-search .form-control {
+    padding-left: 2.375rem;
+    margin: auto;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
 
 
 /*----------------
@@ -588,6 +605,9 @@ MODAL NOTICIA
 .noticia-modal .modal-body span{
     font-weight: bold;
 }
+
+
+
 /*--------------------------------
 Toogle Theme - light and dark mode
 ---------------------------------*/
