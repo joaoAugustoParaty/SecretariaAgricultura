@@ -216,7 +216,7 @@
             <img src="image/Frutas/amora1.png" alt="">
             <h3>Amora</h3>
             <span>Kg - R$3,50 ~ R$6,00</span>
-            <a href="#amora" data-scroll-goto="3" class="btn">Selecionar</a>
+            <a class="btn mt-4" data-toggle="modal" data-target="#amoraModal">Selecionar</a>
         </div>
         <div class="item__box" data-id="frutas">
           <img src="image/Frutas/banana.png" alt="">
@@ -897,6 +897,54 @@
     </div>
   </div>
 </div>
+
+<!-- MODAL PRODUTOS -->
+<!-- modal frutas -->
+<!-- modal amora -->
+<div class="modal produto-modal" id="amoraModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+       <!-- Modal Header -->
+       <div class="modal-header">
+        <h4 class="modal-title">Amora</h4>
+        <img src="image/Frutas/amora1.png">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+       <!-- Modal body -->
+       <div class="modal-body">
+        
+        <p>Na lista abaixo você encontrara os agricultores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
+        <table class="table text-center">
+          <thead>
+            <tr>
+              <th>Agricultor</th>
+              <th>Preço</th>
+              <th>Contato</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Fulano de Tal</td>
+              <td>R$ 2,50 Kg.</td>
+              <td><a class="btn" href="#" role="button">comprar</a></td>
+            </tr>
+            <tr>
+              <td>Beltrano de Tal</td>
+              <td><span>R$ 1,50 Kg.</span></td>
+              <td><a class="btn" href="#" role="button">comprar</a></td>
+            </tr>
+            <tr>
+              <td>Siclano de Tal</td>
+              <td>R$ 2,58 Kg.</td>
+              <td><a class="btn" href="#" role="button">comprar</a></td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+      </div>
+  </div>
+</div>
+
     <!--POPUPS END-->
     
 
