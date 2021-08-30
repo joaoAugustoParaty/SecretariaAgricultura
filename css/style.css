@@ -563,13 +563,30 @@ font-weight: 700;
     color: var(--color-1);
 }
 /*--------------------------------
-CONTATOS
+CADASTRO
 ---------------------------------*/
+.cadastro span{
+    color: var(--main-color);
+    font-weight: bold;
+}
 .custom-select:focus,
 .form-control:focus {
     border-color: var(--main-color) !important;
     box-shadow: 0 0 5px rgb(86, 231, 236) !important;
   }
+  .cadastro button {
+      color: var(--color-1);
+      background-color: var(--main-color);
+      font-weight: 700;
+      
+  }
+
+  .cadastro button:hover {
+    color: var(--main-color);
+    background-color: var(--black-100);
+    font-weight: 700;
+    
+}
 
 /*--------------------------------
 CONTATOS
@@ -577,7 +594,19 @@ CONTATOS
 .contato .section-title span{
     color: var(--main-color)
 }
+.contato button {
+    color: var(--color-1);
+    background-color: var(--main-color);
+    font-weight: 700;
+    
+}
 
+.contato button:hover {
+  color: var(--main-color);
+  background-color: var(--black-100);
+  font-weight: 700;
+  
+}
 /*----------------------------
 Footer
 -----------------------------*/
@@ -658,6 +687,7 @@ Responsive
     .navbar img{
         max-width: 90px;
     } 
+    
 }
 @media(max-width: 1200px){
     lord-icon{
@@ -725,6 +755,7 @@ Responsive
     .footer-col{
         margin-bottom: 30px;
     }
+    
 
 }
 
@@ -733,7 +764,27 @@ Responsive
 }
 
 @media(max-width: 542px){
-    
+    .produto-modal .table,
+    .produto-modal a{
+        
+        font-size: 10px;
+    }
 }
 
+@media(max-width: 280px){
+   
+    .produto-modal{
+      max-width: 280px;
+    }
+    
+    .produto-modal .modal-body{
+         font-size: 13px;
+    }
+    
+    .produto-modal .table,
+    .produto-modal a{
+        justify-content: center;
+        font-size: 8px;
+    }
+}
 
