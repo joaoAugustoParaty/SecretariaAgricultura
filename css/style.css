@@ -620,9 +620,10 @@ CONTATOS
     box-shadow: var(--shadow-black-300);
     color: var(--main-color);
     transition: all 0.3s ease-out;
+    
   }
   #icons-contato .wrapper .button:hover{
-    width: 200px;
+    width: 280px;
   }
 
   #icons-contato .wrapper .button .icon{
@@ -643,7 +644,7 @@ CONTATOS
   }
   
   #icons-contato .wrapper .button .icon i{
-    font-size: 25px;
+    font-size: 20px;
     line-height: 60px;
     transition: all 0.3s ease-out;
   }
