@@ -834,6 +834,20 @@ Responsive
     .fun-facts .section-title h2{
         text-align: center;
     }
+
+   .noticia img{
+       max-height: 130px;
+   }
+
+   .noticia .noticia-item h3{
+             font-size: 15px;
+   }
+   .noticia .noticia-item span{
+    font-size: 12px;
+}
+   .noticia .noticia-item p{
+    font-size: 12px;
+}
 }
 
 
@@ -871,5 +885,12 @@ Responsive
         justify-content: center;
         font-size: 8px;
     }
+    .home-btn .btn-1{
+     display: inline-flex;
+    }
+    .home-btn .btn-2{
+        display: inline-flex;
+        margin-top: 5px;
+       }
 }
 
