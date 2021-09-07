@@ -741,6 +741,7 @@ Responsive
         max-width: 90px;
     } 
     
+    
 }
 @media(max-width: 1200px){
     lord-icon{
@@ -767,6 +768,7 @@ Responsive
         padding:0;
         font-size: 17px;
         color:#ffffff;
+        margin-left: 10px;
     }
     .navbar-nav{
         background-color: var(--dark-to-main-color);
@@ -809,19 +811,49 @@ Responsive
         margin-bottom: 30px;
     }
     
+    .footer img{
+        width: 50px;
+    }
 
 }
 
 @media(max-width: 767px){
-    
+    .home-text{
+        margin-bottom: 80px;
+    }
+    .fun-facts-img{
+        margin-bottom: 30px;
+    }
+    .contact-form{
+        margin-top: 20px;
+    }
+    .section-title h2{
+        font-size: 35px;
+    }
+
+    .fun-facts .section-title h2{
+        text-align: center;
+    }
 }
 
+
+
 @media(max-width: 542px){
-    .produto-modal .table,
-    .produto-modal a{
-        
-        font-size: 10px;
-    }
+    .home-text h1{
+        font-size:30px;
+     }
+     .home-text p{
+         font-size:16px;
+     }
+     .section-title h2{
+         font-size: 30px;
+     }
+     .navbar img{
+         max-width: 60px;
+     }
+
+
+     
 }
 
 @media(max-width: 280px){
