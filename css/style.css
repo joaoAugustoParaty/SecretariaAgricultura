@@ -504,6 +504,7 @@ PRODUTOS
     height: 70px;
     object-fit: contain;
     margin-bottom: 0.5rem;
+    
 }
 .products__item a{
     font-weight: bold;
@@ -835,8 +836,16 @@ Responsive
         text-align: center;
     }
 
+    .about-section .card-header h3{
+        font-size: 15px;
+    }
+
+    .about-section .card-body p{
+        font-size: 12px;
+    }
+
    .noticia img{
-       max-height: 130px;
+       height: 150px;
    }
 
    .noticia .noticia-item h3{
@@ -848,6 +857,45 @@ Responsive
    .noticia .noticia-item p{
     font-size: 12px;
 }
+
+#icons-contato .wrapper .button:hover{
+    width: 180px;
+  }
+
+  #icons-contato .wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+  }
+  #icons-contato .wrapper .button:nth-child(1):hover .icon{
+    background: var(--main-color);
+  }
+  #icons-contato .wrapper .button:nth-child(2):hover .icon{
+    background: var(--main-color);
+  }
+  
+  #icons-contato .wrapper .button .icon i{
+    font-size: 20px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+  }
+  #icons-contato .wrapper .button:hover .icon i{
+    color: #fff;
+  }
+  #icons-contato .wrapper .button span{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+  }
+
+
 }
 
 
@@ -865,7 +913,7 @@ Responsive
      .navbar img{
          max-width: 60px;
      }
-
+     
 
      
 }
