@@ -396,7 +396,7 @@
               </div>
               <div class="col-md-2 mb-3">
                 <label for="idade"class="form-label">Idade:</label>
-                <input id="firstName" type="number" class="form-control" placeholder="Idade" required>
+                <input id="idade" type="number" class="form-control" placeholder="Idade" required>
                 <div class="invalid-feedback">
                   Preencha o campo solicitado
                 </div>
@@ -405,14 +405,14 @@
             <div class="form-row">
               <div class="col-md-3 mb-3 col-lg-2">
                 <label for="nascimento"class="form-label">Data de nascimento:</label>
-                <input id="firstName" type="date" class="form-control" placeholder="Nome Completo" required>
+                <input id="nascimento" type="date" class="form-control" required>
                 <div class="invalid-feedback">
                   Preencha o campo solicitado
                 </div>
               </div>
               <div class="col-md-2 mb-3">
-                <label for="validationTooltip04">Sexo:</label>
-                <select class="custom-select" id="validationTooltip04" required>
+                <label for="sexo">Sexo:</label>
+                <select class="custom-select" id="sexo" required>
                   <option selected disabled value="">escolha...</option>
                   <option value="1">M</option>
                   <option value="2">F</option>
@@ -423,8 +423,8 @@
                 </div>
               </div>
               <div class="col-md-7 mb-3 col-lg-4">
-                <label for="validationTooltip04">Possui algum auxílio da Prefeitura?</label>
-                <select class="custom-select" id="validationTooltip04" required>
+                <label for="auxilio">Possui algum auxílio da Prefeitura?</label>
+                <select class="custom-select" id="auxilio" required>
                   <option selected disabled value="">escolha...</option>
                   <option value="1">Não</option>
                   <option value="2">Auxílio defeso do camarão</option>
@@ -435,8 +435,8 @@
                 </div>
               </div>
               <div class="col-md-6 mb-3 col-lg-4">
-                <label for="validationTooltip04">Possui algum auxílio do Governo?</label>
-                <select class="custom-select" id="validationTooltip04" required>
+                <label for="governo">Possui algum auxílio do Governo?</label>
+                <select class="custom-select" id="governo" required>
                   <option selected disabled value="">escolha...</option>
                   <option value="1">Não</option>
                   <option value="2">Auxílio defeso do camarão</option>
@@ -447,9 +447,9 @@
                 </div>
               </div>
               <div class="col-md-6 mb-3 col-lg-4">
-                <label for="nome"class="form-label">Digite o numero do CPF:</label>
+                <label for="cpf"class="form-label">Digite o numero do CPF:</label>
               <div class="input-group">
-              <input id="firstName" type="text" class="form-control" placeholder="Digite sem os pontos e traço" required>
+              <input id="cpf" type="number" class="form-control" placeholder="Digite sem os pontos e traço" required>
               <div class="valid-feedback">
                 Validado
               </div>
@@ -459,8 +459,8 @@
               </div>
               </div>
               <div class="col-md-2 mb-3 col-lg-4">
-                <label for="validationTooltip04">Profissão:</label>
-                <select class="custom-select" id="validationTooltip04" required>
+                <label for="profissao">Profissão:</label>
+                <select class="custom-select" id="profissao" required>
                   <option selected disabled value="">escolha...</option>
                   <option value="1">Agricultor</option>
                   <option value="2">Pescador</option>
@@ -470,9 +470,9 @@
                 </div>
               </div>
               <div class="col-md-5 mb-3 col-lg-4">
-                <label for="nome"class="form-label">Digite o registro da embarcação:</label>
+                <label for="embarcacao"class="form-label">Digite o registro da embarcação:</label>
               <div class="input-group">
-              <input id="firstName" type="number" class="form-control" placeholder="Se não for pescador digite zero" required>
+              <input id="emcarcacao" type="number" class="form-control" placeholder="Se não for pescador digite zero" required>
               <div class="valid-feedback">
                 Validado
               </div>
@@ -482,8 +482,8 @@
               </div>
               </div>
               <div class="col-md-5 mb-3 col-lg-4">
-                <label for="validationTooltip04">Bairro:</label>
-                <select class="custom-select" id="validationTooltip04" required>
+                <label for="bairro">Bairro:</label>
+                <select class="custom-select" id="bairro" required>
                   <option selected disabled value="">escolha...</option>
                   <option value="1">Areal do Taquari</option>
                 <option value="2">Bairro de Fátima</option>
@@ -561,9 +561,9 @@
                 </div>
               </div>
               <div class="col-md-8 mb-3 col-lg-5">
-                <label for="nome"class="form-label">Nome da Rua:</label>
+                <label for="rua"class="form-label">Nome da Rua:</label>
               <div class="input-group">
-              <input id="firstName" type="text" class="form-control" placeholder="Se não for pescador digite zero" required>
+              <input id="rua" type="text" class="form-control" placeholder="Ex. Av.Roberto da Silveira" required>
               <div class="valid-feedback">
                 Validado
               </div>
@@ -573,8 +573,8 @@
               </div>
               </div>
               <div class="col-md-4 mb-3 col-lg-3">
-                <label for="validationTooltip04">Logradouro:</label>
-                <select class="custom-select" id="validationTooltip04" required>
+                <label for="logradouro">Logradouro:</label>
+                <select class="custom-select" id="logradouro" required>
                   <option selected disabled value="">escolha...</option>
                   <option value="1">Centro</option>
                 <option value="2">Costeira</option>
@@ -1161,7 +1161,7 @@
        <!-- Modal body -->
        <div class="modal-body">
         
-        <p>Na lista abaixo você encontrara os agricultores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
+        <p>Na lista abaixo você encontrara os pescadores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
         <table class="table text-center">
           <thead>
             <tr>
@@ -1210,7 +1210,7 @@
        <!-- Modal body -->
        <div class="modal-body">
         
-        <p>Na lista abaixo você encontrara os agricultores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
+        <p>Na lista abaixo você encontrara os pescadores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
         <table class="table text-center">
           <thead>
             <tr>
@@ -1255,7 +1255,7 @@
        <!-- Modal body -->
        <div class="modal-body">
         
-        <p>Na lista abaixo você encontrara os agricultores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
+        <p>Na lista abaixo você encontrara os pescadores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
         <table class="table text-center">
           <thead>
             <tr>
@@ -1298,7 +1298,7 @@
        <!-- Modal body -->
        <div class="modal-body">
         
-        <p>Na lista abaixo você encontrara os agricultores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
+        <p>Na lista abaixo você encontrara os pescadores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
         <table class="table text-center">
           <thead>
             <tr>
@@ -1353,7 +1353,7 @@
        <!-- Modal body -->
        <div class="modal-body">
         
-        <p>Na lista abaixo você encontrara os agricultores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
+        <p>Na lista abaixo você encontrara os pescadores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
         <table class="table text-center">
           <thead>
             <tr>
@@ -1396,7 +1396,7 @@
        <!-- Modal body -->
        <div class="modal-body">
         
-        <p>Na lista abaixo você encontrara os agricultores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
+        <p>Na lista abaixo você encontrara os pescadores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
         <table class="table text-center">
           <thead>
             <tr>
@@ -1484,7 +1484,7 @@
        <!-- Modal body -->
        <div class="modal-body">
         
-        <p>Na lista abaixo você encontrara os agricultores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
+        <p>Na lista abaixo você encontrara os agricultores e pescadores cadastrados. Clicando em "comprar" você será direcionado para o <span class="zap">Whatsapp</span> do agricultor podendo fazer a negociação do produto com o próprio. Os preços em vermelho significa <span>"promoção!"</span></p>            
         <table class="table text-center">
           <thead>
             <tr>
