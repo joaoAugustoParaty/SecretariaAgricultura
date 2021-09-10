@@ -104,13 +104,13 @@ categories.forEach(n => n.addEventListener('click', activeCategory))
 
 //Filter
 const itemBox = document.querySelectorAll('.products__item .item__box')
-let value = 'frutas';
+let value = 'todos os produtos';
 filter(value);
 
 function filter(value){
     itemBox.forEach(show =>{
         show.style.display = 'none';
-        if(show.getAttribute('data-id') ===value || value == 'all'){
+        if(show.getAttribute('data-id') ===value || value == 'todos os produtos'){
             show.style.display = 'flex';
         }
     })
