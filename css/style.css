@@ -361,7 +361,7 @@ Home Section----*/
 }
 
 .about-section .card-body a{  
-    color: var(--color-3);
+    color: var(--main-color);
 
 }
 
@@ -372,7 +372,7 @@ Home Section----*/
 
 .about-section .card-header{
     border: none;
-    background-color: var(--color-2);
+    background-color: var(--main-color);
     color: var(--color-1);
 }
 .about-section .card{
@@ -625,6 +625,10 @@ CADASTRO
 /*--------------------------------
 CONTATOS
 ---------------------------------*/
+
+.contato{
+    background-color: var(--black-100);
+}
 .contato .section-title span{
     color: var(--main-color)
 }
@@ -724,6 +728,7 @@ MODAL SOBRE
 -----------------------------*/
 .sobre-modal .modal-header{
     border: none;
+    background-color: var(--color-3);
 }
 .sobre-modal .modal-title{
  color: var(--main-color);
